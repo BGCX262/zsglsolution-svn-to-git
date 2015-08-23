@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CommonSite.master.cs" Inherits="MvcApplication.Views.Shared.CommonSite" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link href="../../Content/index.css" type="text/css" rel="Stylesheet" />
+    <link href="../../Content/menu.css" type="text/css" rel="Stylesheet" />
+    <link type="text/css" href="../../Content/Main.css" rel="Stylesheet" />
+    <script type="text/javascript" src="../../Scripts/menu.js"></script>
+    <script type="text/javascript" src="../../Scripts/jquery-1.4.1.js"></script> 
+    <script type="text/javascript" src="../../JavaScripts/main.js"></script>
+    <script type="text/javascript" src="../../Scripts/MicrosoftAjax.js"></script>
+    <script type="text/javascript" src="../../Scripts/MicrosoftMvcAjax.js"></script>
+    <script type="text/javascript" src="../../JavaScripts/jquery.dataTables.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <center>
+        <div class="index_main">
+        <asp:ContentPlaceHolder ID="ShowDialog" runat="server">
+        </asp:ContentPlaceHolder>
+            <div class="index_banner">
+            </div>
+            <div class="index_content">
+                <div class="index_content_left">
+                    <div id="menu" class="js-active">
+                    
+                    <asp:ContentPlaceHolder ID="menuList" runat="server">
+                    </asp:ContentPlaceHolder>
+                        
+                    </div>
+                    <div id="copyright" style="display: none">
+                        Copyright © 2011 <a href="http://apycom.com/">Apycom jQuery Menus</a>
+                    </div>
+                </div>
+                <div class="index_content_content">
+                <asp:ContentPlaceHolder ID="Content" runat="server">
+                </asp:ContentPlaceHolder>
+                </div>
+                <div class="index_content_right" align="left">
+                
+                <asp:ContentPlaceHolder ID="FriendMenu" runat="server">
+                </asp:ContentPlaceHolder>
+                    
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+</html>

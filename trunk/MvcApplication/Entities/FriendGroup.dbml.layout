@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="FriendGroup">
+  <DataContextMoniker Name="/FriendGroupDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a561f8b1-a27d-497a-9ecb-27ca3f7687ae" absoluteBounds="4.875, 2.25, 2, 1.5715458170572916">
+      <DataClassMoniker Name="/FriendGroupDataContext/hygl_group" />
+      <nestedChildShapes>
+        <elementListCompartment Id="78a55ff2-fd88-4c1d-a476-5d6b0171a078" absoluteBounds="4.89, 2.71, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

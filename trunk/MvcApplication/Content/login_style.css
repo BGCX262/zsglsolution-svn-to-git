@@ -1,0 +1,69 @@
+/* CSS Document */
+
+* {
+	margin:0px;
+	padding:0px;
+	}
+#content {
+	width:1000px;
+	height:600px;
+	background-image:url(../../Images/login.jpg);
+	border:solid 1px;
+	}
+#main {
+	width:500px;
+	height:250px;
+	margin-top:180px;
+	}
+#main_text{
+	width:400px;
+	height:158px;
+	float:left;
+	}
+#main_text1 {
+	width:300px;
+	height:40px;
+	float:right;
+	margin-top:50px;
+	}
+#main_text1 input {
+	width:180px;
+	float:right;
+	margin-top:9px;
+	font-size:20px;
+	}
+#main_text2 {
+	width:300px;
+	height:40px;
+	float:right;
+	}
+#main_text2 input {
+	width:180px;
+	float:right;
+	margin-top:8px;
+	font-size:20px;
+	}
+#main_text3 {
+	width:265px;
+	height:18px;
+	float:right;
+	margin-top:10px;
+	}
+#main_text3 p {
+	font-size:14px;
+	font-family:"_徽�雅黑";
+	}
+#main_queren {
+	width:500px;
+	height:30px;
+	margin-top:8px;
+	float:right;
+	}
+#main_queren input{
+	width:60px;
+	height:25px;
+	float:right;
+	margin-right:60px;
+	font-size:14px;
+	font-family:"_徽�雅黑";
+	}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ZyhGxFiles">
+  <DataContextMoniker Name="/ZyhGxFilesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="de9426a5-0e41-4a33-92bc-dccc15e0bd57" absoluteBounds="4, 2.375, 2, 1.9535852050781251">
+      <DataClassMoniker Name="/ZyhGxFilesDataContext/gxgl_zyhgx" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad5043d0-e08c-4472-bc35-7ef9b50c866a" absoluteBounds="4.015, 2.835, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

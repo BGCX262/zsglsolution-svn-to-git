@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="zsgl_solution" Class="UserDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=STC-PC\SQL2005;Initial Catalog=zsgl_solution;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="zsgl_solutionConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.yhgl_users" Member="yhgl_users">
+    <Type Name="yhgl_users">
+      <Column Name="user_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="user_psw" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="level_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="user_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="user_email" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="user_bm" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="user_mobile" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="user_tel" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="user_fax" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="user_qy" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="user_avatar" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="zsgl_solution" Class="YjmxDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=STC-PC\SQL2005;Initial Catalog=zsgl_solution;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="zsgl_solutionConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.yjgl_yjmx" Member="yjgl_yjmx">
+    <Type Name="yjgl_yjmx">
+      <Column Name="yj_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="user_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="yj_zt" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="yj_sjr" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="yj_fssj" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="yj_nr" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="yj_fj" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

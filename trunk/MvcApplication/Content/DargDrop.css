@@ -1,0 +1,16 @@
+﻿body
+{
+}
+	.DragTarget
+	{
+		}
+	.DragTreeNode
+	{
+		}
+	.DragElement
+	{
+		opacity: 0.7;
+		border:solid 1px;
+		position:absolute;
+		background-color:White;	
+		}

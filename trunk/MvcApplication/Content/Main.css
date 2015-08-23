@@ -1,0 +1,134 @@
+﻿
+ul,li,h2{margin:0;padding:0;}
+ul{list-style:none;}
+
+#leftMenu{
+	width:150px;
+	height:500px;
+	float:left;
+
+}
+#leftMenu ul{margin:10px;}
+#leftMenu ul li.button{
+	width:130px;
+	height:22px;
+	display:block;
+	cursor:pointer;
+	font-size:14px;
+	color:#0B92CE;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:5px;
+	background-color: #D9E8FB;
+	background-image: url(../../Images/tabbg01.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding-top: 2px;
+	line-height: 20px;
+}
+#leftMenu ul li a{
+	color:#000000;
+	text-decoration:none;
+	background-image: url(../../Images/tb-btn-sprite_03.gif);
+	background-repeat: repeat-x;
+	
+}
+.dropdown
+{
+	margin-top:0px;
+}
+.dropdown ul
+{
+	background:none;
+	margin-top:0px;
+}
+
+.dropdown ul li
+{
+	line-height:20px;
+	padding-top:0px;
+}
+.simplemodal-overlay {background-color:Black; cursor:wait;}
+
+.cancleImg{}
+.canClickLi{font-size:12px;color:#42B2E7;}
+.back-G {
+	width:400px;
+	height:200px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-200px;
+	margin-top:-100px;
+	position:fixed;
+	}
+.tanchu {
+	width:400px;
+	height:200px;
+	border:solid 1px #adadad;
+	background-image:url(../../Images/tanchu.jpg);
+	background-repeat:repeat-x;
+	border:solid 3px #ADADAD;
+	}
+.tanchu_cha {
+	width:20px;
+	height:20px;
+	float:right;
+	margin-top:2px;
+	margin-right:2px;
+	background-image:url(../../Images/close.jpg);
+	background-repeat:no-repeat;
+	}
+.tanchu_content {
+	height:50px;
+	float:left;
+	margin-top:25px;
+	}
+.back-GB {
+	width:800px;
+	height:600px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-400px;
+	margin-top:-100px;
+	position:fixed;
+	}
+.tanchuB {
+	width:800px;
+	height:600px;
+	border:solid 1px #adadad;
+	background-color:#FFFFFF;
+	}
+.tanchu_topB {
+	width:800px;
+	height:25px;
+	float:left;
+	background-image:url(../../Images/top.jpg);
+	background-repeat:repeat-x;
+	}
+.tanchu_contentB {
+	width:700px;
+	float:left;
+	margin-top:10px;
+	padding-left:50px;
+	}
+	
+.friendBz
+{
+	color:Gray;
+}
+.fsfriendBz
+{
+	color:Gray;
+}
+	
+.content
+{
+	width:570px;
+	height:auto!important;
+	height:720px;
+	min-height:720px;
+	float:left;
+	display:none;
+}

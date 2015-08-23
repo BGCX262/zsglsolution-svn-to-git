@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="wjnr">
+  <DataContextMoniker Name="/wjnrDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a39963e8-5a17-4f6c-8319-ef351a7c278a" absoluteBounds="3.125, 1.875, 2, 1.3805261230468751">
+      <DataClassMoniker Name="/wjnrDataContext/wjgl_wjnrjs" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ffb23e53-46a1-45e4-b19f-51f75144f89f" absoluteBounds="3.14, 2.335, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
